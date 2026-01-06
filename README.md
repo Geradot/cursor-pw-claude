@@ -14,10 +14,25 @@ All tests use Playwright MCP (Model Context Protocol) for locator discovery and 
 
 - **Node.js**: Version 20 or higher
 - **npm**: (comes with Node.js)
+- **Git**: For cloning the repository
 
 ## Steps to Install
 
-1. **Install Node.js dependencies**
+1. **Clone the repository**
+
+   Clone the repository to your local machine:
+
+   ```
+   git clone https://github.com/Geradot/cursor-pw-claude.git
+   ```
+
+   Replace `<repository-url>` with the actual repository URL. Then navigate to the project directory:
+
+   ```
+   cd cursor-pw-claude
+   ```
+
+2. **Install Node.js dependencies**
 
    Open your terminal in the project root directory and run:
 
@@ -29,7 +44,7 @@ All tests use Playwright MCP (Model Context Protocol) for locator discovery and 
    - `@playwright/test` - Playwright test framework
    - `@executeautomation/playwright-mcp-server` - Playwright MCP server integration
 
-2. **Install Playwright browsers**
+3. **Install Playwright browsers**
 
    After installing npm dependencies, install the Playwright browsers:
 
