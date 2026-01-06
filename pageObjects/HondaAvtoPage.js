@@ -33,5 +33,21 @@ export class HondaAvtoPage {
   get instagramLink() {
     return this.page.getByRole('link', { name: /^instagram$/i });
   }
+
+  get firstPhoneNumber() {
+    return this.page.getByRole('link', { name: /\+38\s*\(067\)\s*546\s*12\s*42/ });
+  }
+
+  get secondPhoneNumber() {
+    return this.page.getByRole('link', { name: /\+38\s*\(057\)\s*704\s*10\s*21/ });
+  }
+
+  get firstEmail() {
+    return this.page.getByRole('link', { name: /^info@honda\.kh\.ua$/i });
+  }
+
+  get secondEmail() {
+    return this.page.getByRole('link', { name: /^alfa_motors@honda\.kh\.ua$/i });
+  }
 }
 
